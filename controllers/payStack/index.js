@@ -1,7 +1,9 @@
 const paymentCallback = require("./paymentCallback");
 const requestPayment = require("./requestPayment");
+const validCountries = require("./validCountries");
 
 module.exports = {
     requestPayment,
-    paymentCallback
+    paymentCallback,
+    validCountries
 }
